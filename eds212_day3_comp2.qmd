@@ -1,0 +1,27 @@
+---
+title: "eds212_day3_comp2"
+---
+
+## Vectors in R
+
+```{r}
+# every element in a vector has to be the same class, or R will make them all the same class
+marmots <- c("blue", "green", 4, "yellow", TRUE)
+
+class(marmots)
+
+marmots
+```
+
+```{r}
+# use class to check object classes, good thing to check whenever data viz isn't working as intended. quick check you can just do in the console
+pika <- c(12.4, 6.8, 8, 7, 9)
+
+class(pika)
+```
+
+```{r}
+# integer values
+
+bear <- c(1L, 3L, 5L, 18L)
+```
